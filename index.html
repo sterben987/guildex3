@@ -4,29 +4,65 @@
 <title> andra guild website</title>
 <meta charset = "utf-8">
 </head>
-<body>
-<h1><a href = "index.html" title = "홈"><div style="text-align:center"> 안드라 </div></a></h1> 
-<ul>
-    <li><a href = "index.html"  title = "link">홈</a></li>
-    <li><a href = "mart.html"  title = "link">떠상 알림</a></li>
-    <li><a href = "plrinfo.html" title = "link">전투정보실</a></li>
-    <li><a href = "party.html"  title = "link">파티 모임</a></li>
-    <li><a href = "calc.html"  title = "link">계산기</a></li>
-    <li><a href = "board.html"  title = "link">게시판</a></li>
-    <li><a href = "https://loawa.com/" target = "_blank" title = "로아와 들어가기">로아와</a></li>
-</ul>
-
-<h3><div style = "text-align:center">로아를 사랑하는 사람들의 모임</div></h3>
 <style>
-p {
-    color: red;
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    h1{
+          font-size:45px;
+          border-bottom:black solid 3px;
+          text-align:center;
+          margin:30px;
+          padding-bottom:30px;
+          padding-top: 0;
+          margin-bottom:0;
+    }
+    p {
     text-indent: 30px;
     text-transform: uppercase;
-}
+    }
+    ul{
+        border-right: black solid 5px;
+        font-size: 25px;
+        width: 200px;
+        margin:0;
+        padding: 30px;
+        padding-left: 60px;
+    }
+    h3{
+        display: inline;
+        font-size: 35px;
+    }
+    #grid1{
+        display:grid;
+        grid-template-columns: 294.8px 1fr;
+    }
+    #page{
+        padding:30px;
+    }
 </style>
-<div style = "text-align:center"><strong>경</strong> 웅샤의 <strong><u>군 입대</u></strong>를 축하합니다 <strong>축</strong></div>
-<p style = "margin-bottom:40px; color:navy" >해당 길드는 실제 친구처럼, 정말 친한 사람들끼리 모여서 만들어낸 길드 입니다! 로스트아크로 롱런하고, 리그오브레전드 등 다양한 게임을 짬날때마다
-즐기며 친목을 다지는 것이 목적인 길드이죠.</p> 무례한 행동이나 지나치게 과열된 갈등은 지양됩니다.<br>
-<img src = "home.jpeg" width = "100%">
+<body>
+<h1><a href = "index.html" title = "홈"><div style="text-align:center"> 안드라 </div></a></h1> 
+<div id = "grid1">
+    <ul>
+        <li><a href = "index.html"  title = "link">홈</a></li>
+        <li><a href = "mart.html"  title = "link">떠상 알림</a></li>
+        <li><a href = "plrinfo.html" title = "link">전투정보실</a></li>
+        <li><a href = "party.html"  title = "link">파티 모임</a></li>
+        <li><a href = "calc.html"  title = "link">계산기</a></li>
+        <li><a href = "board.html"  title = "link">게시판</a></li>
+        <li><a href = "https://loawa.com/" target = "_blank" title = "로아와 들어가기">로아와</a></li>
+    </ul>
+    <div id = "page">
+        <h3><div style = "text-align:center">로아를 사랑하는 사람들의 모임</div></h3>
+        <div style = "text-align:center; font-size:25px"><strong>경</strong> 웅샤의 <strong><u>군 입대</u></strong>를 축하합니다 <strong>축</strong></div>
+        <p>해당 길드는 실제 친구처럼, 정말 친한 사람들끼리 모여서 만들어낸 길드 입니다! 로스트아크로 롱런하고, 리그오브레전드 등 다양한 게임을 짬날때마다
+        즐기며 친목을 다지는 것이 목적인 길드이죠.</p> 
+        <div style = "margin-bottom:20px">무례한 행동이나 지나치게 과열된 갈등은 지양됩니다.</div>
+  
+        <img src = "home.jpeg" width = "100%">
+    </div>      
+</div>
 </body>
 </html>
